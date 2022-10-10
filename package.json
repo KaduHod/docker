@@ -1,0 +1,25 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "dotenv": "^16.0.2",
+    "faker": "^5.5.3",
+    "knex": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "autocannon": "^7.10.0"
+  }
+}
